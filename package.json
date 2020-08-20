@@ -1,6 +1,6 @@
 {
-  "name": "@benawad/expo-mixpanel-analytics",
-  "version": "0.1.7",
+  "name": "@brightway-health/expo-mixpanel-analytics",
+  "version": "0.2.0",
   "description": "Mixpanel integration for use with React Native apps built on Expo.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/benawad/expo-mixpanel-analytics.git"
+    "url": "git+ssh://git@github.com:brightway-health/expo-mixpanel-analytics.git"
   },
   "keywords": [
     "react",
@@ -19,23 +19,21 @@
     "mixpanel",
     "analytics"
   ],
-  "author": "Ben Awad",
+  "author": "George Yates",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codekadiya/expo-mixpanel-analytics/issues"
-  },
   "dependencies": {
-    "buffer": "^5.2.1"
+    "buffer": "^5.2.1",
+    "expo-constants": "^9.1.1"
   },
   "peerDependencies": {
-    "expo-constants": "^5.0.1",
-    "react": "16.5.2",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "expo-constants": "^9",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz"
   },
   "devDependencies": {
-    "@types/expo": "^32.0.10",
-    "@types/react-native": "^0.57.43",
+    "@types/react-native": "~0.61",
     "rimraf": "^2.6.3",
-    "typescript": "^3.4.3"
+    "tslib": "^2.0.1",
+    "typescript": "~3.8"
   }
 }
